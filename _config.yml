@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 样样的博客
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: Kulernil 
+language: zh 
 timezone: ''
 
 # URL
@@ -98,4 +98,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git 
+  repo: https://github.com/rickulous/rickulous.github.io.git
+  branch: master
+  message: "say hello to my blog"
